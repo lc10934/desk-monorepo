@@ -13,6 +13,7 @@ _kraken_to_asset = {
         "XAVAXZUSD": Asset.AVAX,
         "XSHIBZUSD": Asset.SHIB,
         "XDOTZUSD": Asset.DOT,
+        "QNTUSD": Asset.QNT,
     },
     Market.KRAKEN_USD_FUTURE: {
         "PF_XBTUSD": Asset.BTC,
@@ -26,6 +27,7 @@ _kraken_to_asset = {
         "PF_AVAXUSD": Asset.AVAX,
         "PF_SHIBUSD": Asset.SHIB,
         "PF_DOTUSD": Asset.DOT,
+        "PF_QNTUSD": Asset.QNT,
     },
 }
 _asset_to_kraken = {
@@ -41,6 +43,7 @@ _asset_to_kraken = {
         Asset.AVAX: "XAVAXZUSD",
         Asset.SHIB: "XSHIBZUSD",
         Asset.DOT: "XDOTZUSD",
+        Asset.QNT:  "QNTUSD",  
     },
     Market.KRAKEN_USD_FUTURE: {
         Asset.BTC: "PF_XBTUSD",
@@ -54,6 +57,7 @@ _asset_to_kraken = {
         Asset.AVAX: "PF_AVAXUSD",
         Asset.SHIB: "PF_SHIBUSD",
         Asset.DOT: "PF_DOTUSD",
+        Asset.QNT:  "PF_QNTUSD",
     },
 }
 

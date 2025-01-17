@@ -211,7 +211,7 @@ class KrakenFutureWebsocketClient(WebSocketClient):
 
     def poll_snapshots(self) -> dict[Asset, SnapshotMessage]:
         for asset in self.subscribed_assets:
-            self.snapshot_messages[asset].time = int(time.time())
+            self.snapshot_messages[asset].time = time.time()
             self.snapshot_messages[asset].bids = [
                 (price, quantity)
                 for price, quantity in reversed(self.bids[asset].items())

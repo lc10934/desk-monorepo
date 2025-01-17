@@ -129,3 +129,7 @@ class TradeMessage:
         if not isinstance(other, TradeMessage):
             return NotImplemented
         return vars(self) == vars(other)
+    
+    def __str__(self) -> str:
+        return (f"TradeMessage(time={self.time}, feedcode='{self.feedcode}', n_trades={self.n_trades}, "
+                f"price={self.price}, quantity={self.quantity}, side={self.side}, market={self.market})")

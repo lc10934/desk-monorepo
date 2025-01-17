@@ -33,7 +33,7 @@ class Asset(Enum):
     AVAX = 9
     SHIB = 10
     DOT = 11
-
+    QNT = 12
 
 class Server(Enum):
     BLACK = 1
